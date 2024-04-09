@@ -1,0 +1,87 @@
+.oculto {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px
+}
+
+.header-content nav ul {
+    margin-right: 20px; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tamaño-letra {
+    font-size: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reserva {
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="email"],
+.input-container input[type="date"],
+.input-container input[type="number"],
+.input-container input[type="submit"] {
+    width: 100%; 
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
