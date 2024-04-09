@@ -13,6 +13,12 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Ajusta este valor según sea necesario */
 }
 
 header h1 {
@@ -56,7 +62,7 @@ footer {
     padding: 20px;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 97.3%;
 
 }
 
@@ -79,43 +85,41 @@ footer ul {
 .input-container input[type="date"],
 .input-container input[type="number"],
 .input-container input[type="submit"] {
-    width: 100%; 
+    width: 97.3%; 
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
-@media screen and (max-width: 414px) {
+section {
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 420px) {
     header {
-        padding: 20px;
+        padding: 10px;
     }
 
     header h1 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     nav ul li {
         margin-right: 10px;
     }
 
-    nav ul li.tamaño-letra a {
-        font-size: 12px;
-    }
-
-     }
-
-     nav ul li {
-        margin-right: 5px;
+    nav ul li a {
+        font-size: 14px;
     }
 
     .reserva {
-        margin-top: 20px;
-        padding: 20px; 
+        margin-top: 20px; 
+        padding: 10px;
     }
 
     .reserva h2 {
-        font-size: 20px; 
+        font-size: 18px; 
     }
 
     .reserva input[type="text"],
@@ -123,35 +127,6 @@ footer ul {
     .reserva input[type="date"],
     .reserva input[type="number"],
     .reserva input[type="submit"] {
-        width: calc(100% - 24px); 
-        padding: 8px 12px;
-        margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 12px; 
     }
-
-    @media screen and (max-width: 448px) {
-    header h1 {
-        font-size: 16px;
-    }
-
-    nav ul li.tamaño-letra a {
-        font-size: 14px;
-    }
-
-    .reserva h2 {
-        font-size: 22px;¿
-    }
-
-    .reserva input[type="text"],
-    .reserva input[type="email"],
-    .reserva input[type="date"],
-    .reserva input[type="number"],
-    .reserva input[type="submit"] {
-        font-size: 16px; 
-    }
-    }
-
-    nav ul li.tamaño-letra a {
-        font-size: 14px;
-    }
-    }
+}
