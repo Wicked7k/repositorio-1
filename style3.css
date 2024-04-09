@@ -130,4 +130,8 @@ section {
         font-size: 12px; 
         width: 97.3%
     }
+
+    footer {
+        width: 97.3%;
+    }
 }
