@@ -112,10 +112,9 @@ footer ul {
     }
 }
 
-/* Media query para dispositivos móviles pequeños */
 @media screen and (max-width: 414px) {
     header {
-        padding: 10px;
+        padding: 20px;
     }
 
     header h1 {
@@ -136,9 +135,46 @@ footer ul {
         margin-right: 5px;
     }
 
+    .reserva {
+        margin-top: 20px; /* Aumentar el margen superior */
+        padding: 20px; /* Agregar relleno */
+    }
+
+    .reserva h2 {
+        font-size: 20px; /* Ajustar el tamaño del título */
+    }
+
+    .reserva input[type="text"],
+    .reserva input[type="email"],
+    .reserva input[type="date"],
+    .reserva input[type="number"],
+    .reserva input[type="submit"] {
+        width: calc(100% - 24px); /* Ajustar el ancho de los elementos de entrada */
+        padding: 8px 12px;
+        margin-bottom: 10px; /* Espacio inferior */
+        font-size: 14px; /* Ajustar el tamaño de fuente */
+    }
+
     @media screen and (max-width: 448px) {
     header h1 {
         font-size: 16px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 14px;
+    }
+
+    .reserva h2 {
+        font-size: 22px; /* Ajustar el tamaño del título */
+    }
+
+    .reserva input[type="text"],
+    .reserva input[type="email"],
+    .reserva input[type="date"],
+    .reserva input[type="number"],
+    .reserva input[type="submit"] {
+        font-size: 16px; /* Ajustar el tamaño de fuente */
+    }
     }
 
     nav ul li.tamaño-letra a {
