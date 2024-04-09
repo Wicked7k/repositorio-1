@@ -151,7 +151,7 @@ footer ul {
 
     nav ul li {
         margin-right: 10px;
-        font-size: 12px; 
+    
     }
 
     .imagen-seccion {
@@ -161,4 +161,9 @@ footer ul {
     .imagen-seccion img {
         max-width: 90%; 
     }
+     
+    nav ul li.tamaño-letra a {
+        font-size: 16px;
+    }
 }
+
