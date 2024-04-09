@@ -18,7 +18,7 @@ header {
     left: 0;
     width: 100%;
     background-color: #333;
-    z-index: 1000; /* Ajusta este valor según sea necesario */
+    z-index: 1000; 
 }
 
 header h1 {
@@ -128,5 +128,6 @@ section {
     .reserva input[type="number"],
     .reserva input[type="submit"] {
         font-size: 12px; 
+        width: 97.3%
     }
 }
