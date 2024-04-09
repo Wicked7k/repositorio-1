@@ -129,8 +129,11 @@ footer ul {
         margin-right: 10px;
     }
 
-    .imagen-nosotros img {
-        max-width: 100%;
-        margin-left: 0;
+    .imagen-seccion {
+        padding: 50px 0;
     }
-}
+
+    .imagen-seccion img {
+        max-width: 80%;
+    }
+  }
