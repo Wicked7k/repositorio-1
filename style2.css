@@ -147,3 +147,21 @@ section {
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 420px) and (max-width: 448px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 14px;
+    }
+}
