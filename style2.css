@@ -69,33 +69,6 @@ section ul li {
     font-size: 25px;
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    .imagen-seccion {
-        padding: 50px 0;
-    }
-
-    .imagen-seccion img {
-        max-width: 100%;
-    }
-
-    nav ul li.tamaño-letra a {
-        font-size: 16px;
-    }
-}
-
-/* Media query para dispositivos móviles pequeños */
 @media screen and (max-width: 414px) {
     header {
         padding: 10px;
@@ -127,4 +100,32 @@ section ul li {
     nav ul li.tamaño-letra a {
         font-size: 14px;
     }
+    }
+
+    @media screen and (max-width: 448px) {
+        header h1 {
+            font-size: 16px;
+        }
+    
+        nav ul li.tamaño-letra a {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+        header {
+            padding: 15px; 
+        }
+    
+        header h1 {
+            font-size: 18px; 
+        }
+    
+        nav ul li {
+            margin-right: 8px; 
+        }
+    
+        nav ul li.tamaño-letra a {
+            font-size: 16px; 
+        }
     }
