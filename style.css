@@ -140,7 +140,7 @@ footer ul {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     header {
         padding: 10px;
     }
@@ -177,41 +177,66 @@ footer ul {
 
 /* Media query para dispositivos móviles pequeños */
 @media screen and (max-width: 414px) {
+        header {
+            padding: 10px;
+        }
+    
+        header h1 {
+            font-size: 14px;
+        }
+    
+        nav ul li {
+            margin-right: 10px;
+        }
+    
+        section {
+            margin-top: 40px; /* Reduzco aún más el margen superior en dispositivos más pequeños */
+        }
+    
+        footer {
+            margin-top: 30px; /* Ajusto aún más el margen superior del pie de página */
+        }
+    
+        .imagen-seccion {
+            padding-top: 60px; /* Reduzco el padding superior de la imagen de la sección */
+            padding-bottom: 10px; /* Añado un poco de espacio adicional inferior */
+            background-size: 100% auto; /* Ajusta el tamaño del fondo para cubrir completamente la sección */
+        }
+    
+        .imagen-seccion img {
+            padding-top: 30px; /* Reduzco el padding superior de la imagen dentro de la sección */
+            padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
+            background-size: cover; /* Ajustar la imagen para cubrir completamente la sección */
+            margin: 0; /* Elimino cualquier margen */
+            width: 100%;
+        }
+    
+        .imagen-nosotros img {
+            max-width: 100%; /* Ajusto el ancho máximo de la imagen a 100% */
+            height: auto; /* Mantengo la proporción de la imagen */
+        }
+    
+        nav ul li.tamaño-letra a {
+            font-size: 12px;
+        }
+    }
+
+
+@media screen and (max-width: 1237px) {
+   
     header {
         padding: 10px;
     }
 
-    header h1 {
-        font-size: 14px;
-    }
 
     nav ul li {
         margin-right: 10px;
+       
     }
 
-    section {
-        margin-top: 40px; /* Reduzco aún más el margen superior en dispositivos más pequeños */
+    .imagen-nosotros img {
+        max-width: 70%;
+        height: auto;
+        margin-left: 100px;
     }
-
-    footer {
-        margin-top: 30px; /* Ajusto aún más el margen superior del pie de página */
     }
-
-    .imagen-seccion {
-        padding-top: 60px; /* Reduzco el padding superior de la imagen de la sección */
-        padding-bottom: 10px; /* Añado un poco de espacio adicional inferior */
-        background-size: 100% auto; /* Ajusta el tamaño del fondo para cubrir completamente la sección */
-    }
-
-    .imagen-seccion img {
-        padding-top: 30px; /* Reduzco el padding superior de la imagen dentro de la sección */
-        padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
-        background-size: cover; /* Ajustar la imagen para cubrir completamente la sección */
-        margin: 0; /* Elimino cualquier margen */
-        width: 100%;
-    }
-
-    nav ul li.tamaño-letra a {
-        font-size: 12px;
-    }
-}
