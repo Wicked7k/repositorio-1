@@ -122,7 +122,7 @@ footer ul {
     }
 
     header h1 {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     nav ul li {
@@ -135,6 +135,6 @@ footer ul {
     }
 
     .imagen-seccion img {
-        max-width: 80%;
+        max-width: 100%;
     }
   }
