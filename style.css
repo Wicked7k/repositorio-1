@@ -138,3 +138,27 @@ footer ul {
         max-width: 100%;
     }
   }
+
+@media screen and (max-width: 414px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+        font-size: 14px; 
+    }
+
+    .imagen-seccion {
+        padding: 50px 0;
+    }
+
+    .imagen-seccion img {
+        max-width: 90%; 
+    }
+}
