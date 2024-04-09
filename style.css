@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: red;
     color: white;
@@ -14,29 +15,37 @@ header {
 }
 
 
+
+
 header h1 {
     margin: 0;
 }
+
 
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
+
 section {
     padding: 20px;
     margin-top: 80px;
 }
+
+
 
 
 footer {
@@ -47,10 +56,12 @@ footer {
     margin-top: 120px;
 }
 
+
 .menu {
     max-width: 600px;
     margin: auto;
 }
+
 
 .menu h3 {
     color: #333;
@@ -58,15 +69,18 @@ footer {
     margin-top: 20px;
 }
 
+
 .menu ul {
     list-style: none;
     padding: 0;
 }
 
+
 .menu ul li {
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
 }
+
 
 .header-content {
     display: flex;
@@ -74,8 +88,9 @@ footer {
     align-items: center;
 }
 
+
 .imagen-seccion {
-    background-image: url('./images/5f58b1bb6d322.r_d.627-418-0.jpeg'); 
+    background-image: url('./images/5f58b1bb6d322.r_d.627-418-0.jpeg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -83,38 +98,47 @@ footer {
     padding: 100px 0;
 }
 
+
 .color-letra {
     color:black
 }
+
 
 footer ul {
     list-style: none;
     padding: 0;
 }
 
+
 .nosotros-seccion {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
+
 
 .nosotros-contenido {
     flex: 1;
 }
 
 
+
+
 .imagen-nosotros img {
     max-width: 70%;
-    height: auto; 
+    height: auto;
     margin-left: 200px;
 }
+
 
 .tamaño-letra {
     font-size: 20px;
 }
 
+
 .header-content nav ul {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -122,48 +146,72 @@ footer ul {
     }
 
     header h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     nav ul li {
         margin-right: 10px;
-        font-size: 14px
+    }
+
+    section {
+        margin-top: 60px; /* Reduzco el margen superior en dispositivos más pequeños */
+    }
+
+    footer {
+        margin-top: 40px; /* Ajusto el margen superior del pie de página */
     }
 
     .imagen-seccion {
-        padding: 50px 0;
+        padding-top: 80px; /* Reduzco el padding superior de la imagen de la sección */
+        padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
     }
 
     .imagen-seccion img {
         max-width: 100%;
     }
-  }
 
-@media screen and (max-width: 414px) {
-    
-    header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 20px;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    
-    }
-
-    .imagen-seccion {
-        padding: 50px 0;
-    }
-
-    .imagen-seccion img {
-        max-width: 90%; 
-    }
-     
     nav ul li.tamaño-letra a {
         font-size: 16px;
     }
 }
 
+/* Media query para dispositivos móviles pequeños */
+@media screen and (max-width: 414px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        margin-top: 40px; /* Reduzco aún más el margen superior en dispositivos más pequeños */
+    }
+
+    footer {
+        margin-top: 30px; /* Ajusto aún más el margen superior del pie de página */
+    }
+
+    .imagen-seccion {
+        padding-top: 60px; /* Reduzco el padding superior de la imagen de la sección */
+        padding-bottom: 10px; /* Añado un poco de espacio adicional inferior */
+        background-size: 100% auto; /* Ajusta el tamaño del fondo para cubrir completamente la sección */
+    }
+
+    .imagen-seccion img {
+        padding-top: 30px; /* Reduzco el padding superior de la imagen dentro de la sección */
+        padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
+        background-size: cover; /* Ajustar la imagen para cubrir completamente la sección */
+        margin: 0; /* Elimino cualquier margen */
+        width: 100%;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 12px;
+    }
+}
