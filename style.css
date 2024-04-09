@@ -154,16 +154,16 @@ footer ul {
     }
 
     section {
-        margin-top: 60px; /* Reduzco el margen superior en dispositivos más pequeños */
+        margin-top: 60px; 
     }
 
     footer {
-        margin-top: 40px; /* Ajusto el margen superior del pie de página */
+        margin-top: 40px;
     }
 
     .imagen-seccion {
-        padding-top: 80px; /* Reduzco el padding superior de la imagen de la sección */
-        padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
+        padding-top: 80px; 
+        padding-bottom: 20px; 
     }
 
     .imagen-seccion img {
@@ -173,9 +173,12 @@ footer ul {
     nav ul li.tamaño-letra a {
         font-size: 16px;
     }
+    .imagen-nosotros {
+        display: none; 
+    }
 }
 
-/* Media query para dispositivos móviles pequeños */
+
 @media screen and (max-width: 414px) {
         header {
             padding: 10px;
@@ -190,32 +193,30 @@ footer ul {
         }
     
         section {
-            margin-top: 40px; /* Reduzco aún más el margen superior en dispositivos más pequeños */
+            margin-top: 40px; 
         }
     
         footer {
-            margin-top: 30px; /* Ajusto aún más el margen superior del pie de página */
+            margin-top: 30px;
         }
     
         .imagen-seccion {
-            padding-top: 60px; /* Reduzco el padding superior de la imagen de la sección */
-            padding-bottom: 10px; /* Añado un poco de espacio adicional inferior */
-            background-size: 100% auto; /* Ajusta el tamaño del fondo para cubrir completamente la sección */
+            padding-top: 60px; 
+            padding-bottom: 10px; 
+            background-size: 100% auto; 
         }
     
         .imagen-seccion img {
-            padding-top: 30px; /* Reduzco el padding superior de la imagen dentro de la sección */
-            padding-bottom: 20px; /* Añado un poco de espacio adicional inferior */
-            background-size: cover; /* Ajustar la imagen para cubrir completamente la sección */
-            margin: 0; /* Elimino cualquier margen */
+            padding-top: 30px; 
+            padding-bottom: 20px; 
+            background-size: cover; 
+            margin: 0; 
             width: 100%;
         }
-    
-        .imagen-nosotros img {
-            max-width: 100%; /* Ajusto el ancho máximo de la imagen a 100% */
-            height: auto; /* Mantengo la proporción de la imagen */
-        }
-    
+
+        .imagen-nosotros {
+        display: none; 
+    }
         nav ul li.tamaño-letra a {
             font-size: 12px;
         }
