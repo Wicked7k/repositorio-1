@@ -135,7 +135,7 @@ section {
     }
 
     header h1 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     nav ul li {
@@ -143,6 +143,6 @@ section {
     }
 
     nav ul li.tamaño-letra a {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
