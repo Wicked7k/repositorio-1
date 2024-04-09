@@ -86,32 +86,6 @@ footer ul {
     font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    .imagen-seccion {
-        padding: 50px 0;
-    }
-
-    .imagen-seccion img {
-        max-width: 100%;
-    }
-
-    nav ul li.tamaño-letra a {
-        font-size: 16px;
-    }
-}
-
 @media screen and (max-width: 414px) {
     header {
         padding: 20px;
@@ -136,12 +110,12 @@ footer ul {
     }
 
     .reserva {
-        margin-top: 20px; /* Aumentar el margen superior */
-        padding: 20px; /* Agregar relleno */
+        margin-top: 20px;
+        padding: 20px; 
     }
 
     .reserva h2 {
-        font-size: 20px; /* Ajustar el tamaño del título */
+        font-size: 20px; 
     }
 
     .reserva input[type="text"],
@@ -149,10 +123,10 @@ footer ul {
     .reserva input[type="date"],
     .reserva input[type="number"],
     .reserva input[type="submit"] {
-        width: calc(100% - 24px); /* Ajustar el ancho de los elementos de entrada */
+        width: calc(100% - 24px); 
         padding: 8px 12px;
-        margin-bottom: 10px; /* Espacio inferior */
-        font-size: 14px; /* Ajustar el tamaño de fuente */
+        margin-bottom: 10px;
+        font-size: 14px;
     }
 
     @media screen and (max-width: 448px) {
@@ -165,7 +139,7 @@ footer ul {
     }
 
     .reserva h2 {
-        font-size: 22px; /* Ajustar el tamaño del título */
+        font-size: 22px;¿
     }
 
     .reserva input[type="text"],
@@ -173,7 +147,7 @@ footer ul {
     .reserva input[type="date"],
     .reserva input[type="number"],
     .reserva input[type="submit"] {
-        font-size: 16px; /* Ajustar el tamaño de fuente */
+        font-size: 16px; 
     }
     }
 
