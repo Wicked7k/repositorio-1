@@ -4,6 +4,22 @@ body {
     padding: 0;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff; 
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -81,6 +97,29 @@ section {
         padding: 10px;
     }
 
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     header h1 {
         font-size: 16px;
     }
@@ -99,6 +138,29 @@ section {
         padding: 15px;
     }
 
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     header h1 {
         font-size: 18px;
     }
@@ -115,6 +177,29 @@ section {
 @media screen and (min-width: 560px) and (max-width: 600px) {
     header {
         padding: 15px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     header h1 {
@@ -153,6 +238,28 @@ section {
         padding: 15px;
     }
 
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
     header h1 {
         font-size: 16px;
     }
