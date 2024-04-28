@@ -139,12 +139,30 @@ footer ul {
     margin-right: 20px;
 }
 
+.navbar {
+    display: block; 
+}
 
+.hamburger {
+    display: none; 
+}
 @media screen and (max-width: 600px) {
     header {
         padding: 10px;
     }
-
+    .navbar {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+    }
+    
     header h1 {
         font-size: 24px;
     }
@@ -178,12 +196,22 @@ footer ul {
     }
 }
 
-
 @media screen and (max-width: 414px) {
         header {
             padding: 10px;
         }
+        .navbar {
+            display: none;
+        }
     
+        .hamburger {
+            display: block;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+        }
         header h1 {
             font-size: 16px;
         }
