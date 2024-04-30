@@ -33,7 +33,12 @@
                     <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
                 </div>
                 <div class="input-container">
-                    <input type="date" id="fecha" name="fecha" required>
+                    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fechaNacimiento" required>
+                </div>
+                <div class="input-container">
+                    <label for="fechaReserva">Fecha de Reserva:</label>
+                    <input type="date" id="fechaReserva" required>
                 </div>
                 <div class="input-container">
                     <input type="number" id="personas" name="personas" min="1" placeholder="Número de personas" required>
@@ -42,8 +47,8 @@
                     <input type="submit" value="Reservar">
                 </div>
             </form>
+            <p>Tiempo de espera estimado: <span id="tiempo-espera">Calculando...</span></p>
         </section>
-        
     </section>
     <footer>
         <h2>Contacto</h2>
