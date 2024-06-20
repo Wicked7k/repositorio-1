@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+#menu {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info-producto {
+    padding: 10px 0;
+}
+
+.info-producto h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.info-producto p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.precio {
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-agregar {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media screen and (min-width: 448px) and (max-width: 560px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 40px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin-right: 8px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 600px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-right: 8px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 420px) {
+    header {
+        padding: 15px 20px ;
+    }
+
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+        margin-top: 0;
+    }
+   
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 0;
+    }
+    
+    header h1 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 448px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black; 
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 0;
+    }
+    header h1 {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li.tamaño-letra a {
+        font-size: 14px;
+    }
+}
+
