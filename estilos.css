@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hamburguer {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+}
+
+.hamburguer span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tamano-letra {
+    font-size: 25px;
+}
+
+section {
+    margin-top: 80px; 
+    padding: 20px;
+    margin-bottom: 120px; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reserva {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contenedor-input {
+    margin-bottom: 10px;
+}
+
+.contenedor-input input[type="text"],
+.contenedor-input input[type="email"],
+.contenedor-input input[type="date"],
+.contenedor-input input[type="number"],
+.contenedor-input input[type="submit"] {
+    width: 97.3%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.oculto {
+    display: none;
+}
+
+.navbar {
+    margin-top: 0; 
+}
+
+@media screen and (max-width: 754px) {
+    .hamburguer {
+        display: block;
+        margin-left: 400px;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul li.tamano-letra a {
+        font-size: 16px;
+    }
+}
