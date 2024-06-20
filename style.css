@@ -65,6 +65,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 14px;
 }
 
 
@@ -188,16 +189,17 @@ footer ul {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 754px) {
 
     .navbar ul {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: red; 
         padding: 10px;
+        margin-top: 0;
     }
 
     .navbar ul.active {
@@ -211,9 +213,10 @@ footer ul {
 
     .hamburger {
         display: block;
+        margin-left: 400px;
     }
     header {
-        padding: 10px;
+        padding: 10px 20px;
     }
 
    
@@ -261,11 +264,12 @@ footer ul {
     .navbar ul {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: red; 
         padding: 10px;
+        margin-top: 0;
     }
 
     .navbar ul.active {
@@ -279,9 +283,10 @@ footer ul {
 
     .hamburger {
         display: block;
+        margin-left: 0;
     }
         header {
-            padding: 10px;
+            padding: 10px 20px;
         }
 
         header h1 {
